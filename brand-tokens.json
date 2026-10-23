@@ -1,6 +1,6 @@
 {
   "$schema": "https://json.schemastore.org/design-tokens.json",
-  "name": "Citizens' Track AI Brand Tokens",
+  "name": "Citizens' Track on AI Brand Tokens",
   "version": "1.0.0",
   "updated": "2026-10",
   "colors": {
@@ -87,8 +87,10 @@
       "minWebSizePx": 14
     }
   },
-  "logo": {
-    "organization": "Citizens' Track AI",
+  "project": {
+    "name": "Citizens' Track on AI",
+    "approvedAbbreviations": ["CT//AI", "CTAI"],
+    "forbiddenNames": ["Citizens' Track AI", "Citizens' Track", "AI Citizens' Track"],
     "website": "https://citizens-track.org",
     "subBrandSlashAngle": "Exact angle of 'A'",
     "primaryVariant": "wide",

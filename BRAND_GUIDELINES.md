@@ -1,4 +1,4 @@
-# Citizens' Track AI — Brand Guidelines & Design System
+# Citizens' Track on AI — Brand Guidelines & Design System
 
 > **Official Design Specification & Asset Guide**  
 > **Brand Version:** 1.0 (October 2026)  
@@ -10,24 +10,26 @@
 
 ## Table of Contents
 1. [AI Agent Quick Directives](#1-ai-agent-quick-directives)
-2. [Logo System & Assets](#2-logo-system--assets)
+2. [Naming & Describing the Project](#2-naming--describing-the-project)
+3. [Logo System & Assets](#3-logo-system--assets)
    - [Logo Elements & Anatomy](#logo-elements--anatomy)
    - [Variants: Wide vs. Stacked](#variants-wide-vs-stacked)
    - [Colourways & Contexts](#colourways--contexts)
    - [Asset Directory & File Reference](#asset-directory--file-reference)
    - [Logo Clear Space & Alignment](#logo-clear-space--alignment)
    - [Logo Nogos (Forbidden Practices)](#logo-nogos-forbidden-practices)
-3. [Color Palette & Tokens](#3-color-palette--tokens)
+4. [Color Palette & Tokens](#4-color-palette--tokens)
    - [Primary Palette](#primary-palette)
    - [Secondary Palette](#secondary-palette)
    - [Approved Color Pairings & Contrast](#approved-color-pairings--contrast)
-4. [Typography](#4-typography)
+5. [Typography](#5-typography)
    - [Primary Font: Parkinsans](#primary-font-parkinsans)
    - [Hierarchy & Sizing Scale](#hierarchy--sizing-scale)
-5. [Iconography & Data Graphics](#5-iconography--data-graphics)
+6. [Iconography & Data Graphics](#6-iconography--data-graphics)
    - [Icon Style Rules](#icon-style-rules)
+   - [Transparent Icon Catalog](#transparent-icon-catalog-available-in-imagesicons)
    - [Charts & Diagrams](#charts--diagrams)
-6. [Implementation Kit for Web & Apps](#6-implementation-kit-for-web--apps)
+7. [Implementation Kit for Web & Apps](#7-implementation-kit-for-web--apps)
    - [CSS Custom Properties (Tokens)](#css-custom-properties-tokens)
    - [Tailwind CSS Configuration](#tailwind-css-configuration)
    - [HTML / SVG Header Snippet](#html--svg-header-snippet)
@@ -36,10 +38,11 @@
 
 ## 1. AI Agent Quick Directives
 
-When building pages, components, graphics, or web applications for **Citizens' Track AI**, follow these non-negotiable rules:
+When building pages, components, graphics, or web applications for **Citizens' Track on AI**, follow these non-negotiable rules:
 
 | Element | Directive | What to Avoid |
 | :--- | :--- | :--- |
+| **Project Name (in text)** | Always write **Citizens' Track on AI** in full, or abbreviate to **CT//AI** or **CTAI**. | **NEVER write "Citizens' Track AI", "Citizens' Track" alone, or "AI Citizens' Track" in text.** |
 | **Primary Font** | Load **`Parkinsans`** via Google Fonts; use `Arial, sans-serif` as fallback. | Never use default system serif fonts or generic sans like Roboto/Inter without Parkinsans first. |
 | **Light Canvas** | Body background: **Spring Wood** (`#EFEEE5`); Surface cards: `#FFFFFF` or `#F8F7F2`. | Avoid stark clinical `#FFFFFF` for the full page body. |
 | **Dark Canvas** | Body background: **Ebony Clay** (`#242C36`); Deep containers: **Fjord** (`#00447C`). | Avoid muddy greys or pure `#000000` pitch black. |
@@ -50,14 +53,43 @@ When building pages, components, graphics, or web applications for **Citizens' T
 
 ---
 
-## 2. Logo System & Assets
+## 2. Naming & Describing the Project
+
+When writing, speaking, or generating text referring to the initiative, adhere strictly to the following editorial naming conventions:
+
+### Approved Ways to Refer to the Project in Text
+The **only** approved ways of talking about the initiative in text are:
+1. **In full as:** **`Citizens' Track on AI`**
+2. **Abbreviated to:** **`CT//AI`** or **`CTAI`**
+
+> **Crucial Rule:**  
+> We should **always** talk about the **Citizens' Track on AI** — and **never** "Citizens' Track AI" in text.  
+> *(Note: The logo graphic artwork visually displays the design lockup `Citizens' Track //AI`, but all written copy, prose, metadata, and headings must include the preposition "on".)*
+
+### Editorial Prohibitions & Nogos (Text Copy)
+- ❌ **NEVER write "Citizens' Track AI" in text.** (Always use *"Citizens' Track on AI"*).
+- ❌ **NEVER refer to it as "Citizens' Track" alone.** (Omits the AI focus and is unapproved).
+- ❌ **NEVER write "AI Citizens' Track".** (Inverting the words is strictly forbidden).
+
+| Status | Name Format | Usage Context |
+| :--- | :--- | :--- |
+| ✅ **Approved (Full)** | **Citizens' Track on AI** | Primary written standard for all body copy, press releases, page titles, and introductions. |
+| ✅ **Approved (Abbreviation)** | **CT//AI** | Stylized abbreviation matching the brand's forward-slash design motif. |
+| ✅ **Approved (Abbreviation)** | **CTAI** | Standard plain-text abbreviation for URLs, filenames, database tables, and compact UI tags. |
+| ❌ **Forbidden in text** | *Citizens' Track AI* | Artwork logo lockup only. Do not use in written prose or text. |
+| ❌ **Forbidden in text** | *Citizens' Track* | Incomplete reference. |
+| ❌ **Forbidden in text** | *AI Citizens' Track* | Inverted word order. |
+
+---
+
+## 3. Logo System & Assets
 
 ![Logo Variants](images/guidelines/logo-variants.png)
 
 ### Logo Elements & Anatomy
 ![Logo Elements](images/guidelines/logo-elements.png)
 
-The Citizens' Track AI logo is composed of three interconnected elements:
+The logo is composed of three interconnected elements:
 1. **The Emblem:** An interlocking path motif featuring circular nodes at terminals, symbolizing multi-stakeholder connection, citizen deliberation, and governance tracks. Can be separated and used on its own as an avatar, favicon, or app icon.
 2. **The Wordmark:** The precision typography spelling `"Citizens' Track"`. It must never be separated from the emblem when using the full logo.
 3. **The AI Sub-brand:** The identifier `"//AI"`. The two forward slashes are pitched at the **exact angle of the letter 'A'**.
@@ -144,7 +176,7 @@ The logo identity must be strictly preserved:
 
 ---
 
-## 3. Color Palette & Tokens
+## 4. Color Palette & Tokens
 
 ![Palette Overview](images/guidelines/palette-overview.png)
 
@@ -197,12 +229,12 @@ Supports the primary palette for data visualization, highlights, callouts, and c
 
 ---
 
-## 4. Typography
+## 5. Typography
 
 ![Typography Parkinsans](images/guidelines/typography-parkinsans.png)
 
 ### Primary Font: Parkinsans
-The official typeface for Citizens' Track AI is **Parkinsans** (designed by Neil Summerour).
+The official typeface for Citizens' Track on AI is **Parkinsans** (designed by Neil Summerour).
 - **Google Fonts Link:** [Parkinsans on Google Fonts](https://fonts.google.com/specimen/Parkinsans?preview.script=Latn)
 - **Fallback Font:** `Arial, sans-serif` (use only if Parkinsans is unable to load).
 
@@ -239,7 +271,7 @@ body {
 
 ---
 
-## 5. Iconography & Data Graphics
+## 6. Iconography & Data Graphics
 
 ### Icon Style Rules
 ![Icons Style Guide](images/guidelines/icons-style-guide.png)
@@ -287,7 +319,7 @@ When building charts (Chart.js, Recharts, D3, or CSS bars):
 
 ---
 
-## 6. Implementation Kit for Web & Apps
+## 7. Implementation Kit for Web & Apps
 
 ### CSS Custom Properties (Tokens)
 Directly include [brand-tokens.css](brand-tokens.css) in your web project:
@@ -368,7 +400,7 @@ module.exports = {
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Citizens' Track AI</title>
+  <title>Citizens' Track on AI</title>
   
   <!-- Favicon -->
   <link rel="icon" type="image/svg+xml" href="images/logos/favicon.svg" />
@@ -386,7 +418,7 @@ module.exports = {
   <!-- Brand Navbar -->
   <header style="background: #ffffff; border-bottom: 1px solid #dcd9cd; padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between;">
     <a href="https://citizens-track.org" style="display: flex; align-items: center; text-decoration: none;">
-      <img src="images/logos/logo-wide-positive.svg" alt="Citizens' Track AI Logo" height="42" />
+      <img src="images/logos/logo-wide-positive.svg" alt="Citizens' Track on AI Logo" height="42" />
     </a>
     
     <nav style="display: flex; gap: 1.5rem; align-items: center;">
@@ -402,10 +434,10 @@ module.exports = {
 
 ---
 
-## 7. Version & Contact Information
+## 8. Version & Contact Information
 - **Brand System Version:** 1.0 (October 2026)
 - **Official Portal:** [citizens-track.org](https://citizens-track.org)
 - **Branding Agency:** Convincible Media
 - **Organization:** Connected By Data
 
-*For any questions regarding licensing, emblem usage exceptions, or print separations, contact the Citizens' Track communications team.*
+*For any questions regarding licensing, emblem usage exceptions, or print separations, contact the Citizens' Track on AI communications team at contact@citizens-track.org.*
